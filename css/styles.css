@@ -1,3 +1,65 @@
+/*
+Colors Used:
+    primary color (orange): #D9601A;
+    primary dark (dark orange): #A6370F;
+    secondary color (blue): #29A699;
+    secondary dark (dark blue): #0D403B;
+    accent color (light peach): #F2AB91;
+    neutral dark (blackish): #003B4A;
+    neutral light (whiteish peach): #FFFBFD;
+    neutral light (whitish blue): #D6E9EE;
+
+Fonts Used:
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+*/
+
 body {
-    background-color: violet;
+    background-color: #D6E9EE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #003B4A;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3.815em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 3.052em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 2.441em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.953em;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.563em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1.25em;
+    font-weight: 400;
 }
