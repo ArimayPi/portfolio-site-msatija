@@ -29,7 +29,11 @@ h1 {
     line-height: 1.6;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
 }
@@ -70,16 +74,39 @@ img {
 
 a {
     color: #A6370F;
-    text-decoration: none; /* No underlining */
-  }
-  a:visited { /* visited link */
+    text-decoration: none;
+    /* No underlining */
+}
+
+a:visited {
+    /* visited link */
     color: #A6370F;
-  }
-  a:hover,
-  a:focus {
+}
+
+a:hover,
+a:focus,
+a:active {
     color: #D9601A;
-    text-decoration: underline; /* Underlining when hovering over a link */
-  }
-  a:active { /* selected link */
-    color: #D9601A;
+    text-decoration: underline;
+    /* Underlining when hovering over a link */
+}
+
+a.button {
+    display: inline-block;
+    background-color: #D9601A;
+    color: #FFFBFD;
+    /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #994c30;
+    /* width of the border, type, color */
+    transition: 0.2s opacity;
+}
+
+a.button:hover,
+a.button:focus,
+a.button:active {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
   }
