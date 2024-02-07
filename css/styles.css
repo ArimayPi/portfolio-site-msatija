@@ -15,6 +15,7 @@ Fonts Used:
     font-family: 'Raleway', sans-serif;
 */
 
+/* general */
 body {
     background-color: #FFFBFD;
     font-family: 'Open Sans', sans-serif;
@@ -24,6 +25,11 @@ body {
     color: #003B4A;
 }
 
+img {
+    width: 100%;
+}
+
+/* typography */
 h1 {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.6;
@@ -68,10 +74,7 @@ h6 {
     font-weight: 400;
 }
 
-img {
-    width: 100%;
-}
-
+/* links and buttons */
 a {
     color: #A6370F;
     text-decoration: none;
@@ -80,7 +83,7 @@ a {
 
 a:visited {
     /* visited link */
-    color: #A6370F;
+    opacity: 0.8;
 }
 
 a:hover,
