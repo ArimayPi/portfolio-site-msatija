@@ -67,3 +67,19 @@ h6 {
 img {
     width: 100%;
 }
+
+a {
+    color: #A6370F;
+    text-decoration: none; /* No underlining */
+  }
+  a:visited { /* visited link */
+    color: #A6370F;
+  }
+  a:hover,
+  a:focus {
+    color: #D9601A;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+  a:active { /* selected link */
+    color: #D9601A;
+  }
