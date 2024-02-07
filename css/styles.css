@@ -35,31 +35,35 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.815em;
+    font-size: 2.986em;
     font-weight: 800;
 }
 
 h2 {
-    font-size: 3.052em;
+    font-size: 2.488em;
     font-weight: 800;
 }
 
 h3 {
-    font-size: 2.441em;
+    font-size: 2.074em;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 1.953em;
+    font-size: 1.728em;
     font-weight: 600;
 }
 
 h5 {
-    font-size: 1.563em;
+    font-size: 1.44em;
     font-weight: 400;
 }
 
 h6 {
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: 400;
+}
+
+img {
+    width: 100%;
 }
