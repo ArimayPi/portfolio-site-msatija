@@ -76,7 +76,7 @@ h6 {
 
 /* links and buttons */
 a {
-    color: #A6370F;
+    color: #D9601A;
     text-decoration: none;
     /* No underlining */
 }
@@ -84,13 +84,13 @@ a {
 a:visited {
     /* visited link */
     color: #A6370F;
-    opacity: 0.5;
+    opacity: 0.8; /* opacity set only for visited links */
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #D9601A;
+    color: #A6370F;
     text-decoration: underline;
     /* Underlining when hovering over a link */
 }
