@@ -116,16 +116,16 @@ a.button:active {
     text-decoration: none;
 }
 
-a.button.contact {
+a.button.secondary {
     background-color: transparent;
     color: #D9601A;
     text-transform: uppercase;
     border: 2px solid #D9601A;
 }
 
-a.button.contact:hover,
-a.button.contact:focus,
-a.button.contact:active {
+a.button.secondary:hover,
+a.button.secondary:focus,
+a.button.secondary:active {
     background-color: #D9601A;
     color: #FFFBFD;
 }
