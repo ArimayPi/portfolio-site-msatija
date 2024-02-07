@@ -107,6 +107,27 @@ a.button {
 a.button:hover,
 a.button:focus,
 a.button:active {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
     text-decoration: none;
-  }
+}
+
+a.button.contact {
+    background-color: transparent;
+    color: #D9601A;
+    text-transform: uppercase;
+    border: 2px solid #D9601A;
+}
+
+a.button.contact:hover {
+    background-color: #D9601A;
+    color: #FFFBFD;
+}
+a.button.contact:focus {
+    background-color: #D9601A;
+    color: #FFFBFD;
+}
+a.button.contact:active {
+    background-color: #D9601A;
+    color: #FFFBFD;
+}
