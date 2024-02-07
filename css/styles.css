@@ -129,3 +129,10 @@ a.button.secondary:active {
     background-color: #D9601A;
     color: #FFFBFD;
 }
+
+/* layout */
+header {
+    background-color: plum;
+    padding: 0.625em;
+    margin: 0.625em;
+}
