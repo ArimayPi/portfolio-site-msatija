@@ -103,7 +103,7 @@ a:active {
     /* Underlining when hovering over a link */
 }
 
-a.button {
+.button {
     display: inline-block;
     background-color: #D9601A;
     color: #FFFBFD;
@@ -116,24 +116,24 @@ a.button {
     transition: 0.2s opacity;
 }
 
-a.button:hover,
-a.button:focus,
-a.button:active {
+.button:hover,
+.button:focus,
+.button:active {
     opacity: 0.8;
     /* Reduces the opacity of the button to 80% */
     text-decoration: none;
 }
 
-a.button.secondary {
+.button.secondary {
     background-color: transparent;
     color: #D9601A;
     text-transform: uppercase;
     border: 2px solid #D9601A;
 }
 
-a.button.secondary:hover,
-a.button.secondary:focus,
-a.button.secondary:active {
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
     background-color: #D9601A;
     color: #FFFBFD;
 }
