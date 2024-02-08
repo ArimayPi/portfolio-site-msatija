@@ -16,6 +16,10 @@ Fonts Used:
 */
 
 /* general */
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #FFFBFD;
     font-family: 'Open Sans', sans-serif;
