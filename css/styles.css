@@ -18,7 +18,7 @@ Fonts Used:
 /* general */
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
     background-color: #FFFBFD;
@@ -95,7 +95,6 @@ a {
 
 a:visited {
     /* visited link */
-    color: #A6370F;
     opacity: 0.5;
 }
 
@@ -110,7 +109,7 @@ a:active {
 .button {
     display: inline-block;
     background-color: #D9601A;
-    color: #FFFBFD;
+    color: #FFFBFD; /* <-- THIS COLOR CHANGE DOESN'T SEEM TO BE WORKING*/
     /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
@@ -126,6 +125,8 @@ a:active {
     opacity: 0.8;
     /* Reduces the opacity of the button to 80% */
     text-decoration: none;
+    color: #FFFBFD;
+    /* needed to override the default link color */
 }
 
 .button.secondary {
@@ -159,3 +160,49 @@ a:active {
 .center {
     text-align: center;
 }
+
+header {
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #02ac1c; /* <-- THIS COLOR CHANGE DOESN'T SEEM TO BE WORKING*/
+}
+
+nav > ul > li > a:visited {
+    /* visited link */
+    color: #ff0000;
+    opacity: 0.5;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus,
+nav > ul > li > a:active {
+    /* visited link */
+    color: #0037ff;
+    opacity: 0.5;
+}
+
+#hero {
+    background-color: #ffe4c4;
+  }
