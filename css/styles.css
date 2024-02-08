@@ -138,4 +138,7 @@ a.button.secondary:active {
     color: #FFFBFD;
 }
 
-/* layout */
+/* layout styling */
+.container {
+    padding: 0 15px;
+}
