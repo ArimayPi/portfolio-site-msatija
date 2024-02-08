@@ -165,7 +165,8 @@ header {
     background-color: #ffe4c4;
     text-align: center;
     padding: 10px 0;
-
+    width: 100%;
+    position:fixed
 }
 
 nav {
@@ -210,3 +211,17 @@ nav > ul > li > a:active {
     width: 100%;
   }
 
+.css-box-shadow {
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #FFE4C4; 
+	border: solid #BDBDBD 0; 
+	box-shadow: 0 0 15px rgba(5, 7, 59, 0.3)  ; 
+	-webkit-box-shadow: 0 0 15px rgba(5, 7, 59, 0.3)  ; 
+	-moz-box-shadow: 0 0 15px rgba(5, 7, 59, 0.3)  ; 
+}
+
+main {
+    padding-top: 10em;
+}
