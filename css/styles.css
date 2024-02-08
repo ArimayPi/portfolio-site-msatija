@@ -109,7 +109,7 @@ a:active {
 .button {
     display: inline-block;
     background-color: #D9601A;
-    color: #FFFBFD; /* <-- THIS COLOR CHANGE DOESN'T SEEM TO BE WORKING*/
+    color: #FFFBFD; 
     /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
@@ -187,12 +187,12 @@ nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #02ac1c; /* <-- THIS COLOR CHANGE DOESN'T SEEM TO BE WORKING*/
+    color: #003B4A; 
 }
 
 nav > ul > li > a:visited {
     /* visited link */
-    color: #ff0000;
+    color: #003B4A;
     opacity: 0.5;
 }
 
@@ -200,8 +200,7 @@ nav > ul > li > a:hover,
 nav > ul > li > a:focus,
 nav > ul > li > a:active {
     /* visited link */
-    color: #0037ff;
-    opacity: 0.5;
+    color: #D9601A;
 }
 
 #hero {
@@ -224,4 +223,18 @@ nav > ul > li > a:active {
 
 main {
     padding-top: 10em;
+}
+
+#work {
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+    background-color: #ff00bf;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
 }
