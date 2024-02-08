@@ -151,3 +151,7 @@ a:active {
     padding-bottom: 25px; 
     border-bottom: 1px solid #4a4a4a;
 }
+
+.center {
+    text-align: center;
+}
