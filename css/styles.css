@@ -29,6 +29,10 @@ img {
     width: 100%;
 }
 
+.social-icon {
+    width: 50px;
+    }
+
 /* typography */
 h1 {
     font-family: 'Noto Sans', sans-serif;
@@ -131,8 +135,3 @@ a.button.secondary:active {
 }
 
 /* layout */
-header {
-    background-color: plum;
-    padding: 0.625em;
-    margin: 0.625em;
-}
