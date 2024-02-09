@@ -31,7 +31,7 @@ Fonts Used:
 }
 
 body {
-    background-color: #ffccb8;
+    background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -116,7 +116,8 @@ a:active {
     /* Underlining when hovering over a link */
 }
 
-.button {
+.button,
+.button:visited {
     display: inline-block;
     background-color: #c14e0b;
     color: #fff6f3; 
@@ -233,6 +234,7 @@ nav > ul > li > a:active {
 
 main {
     padding-top: 10em;
+    width: 100%;
 }
 
 #work {
