@@ -282,4 +282,13 @@ nav > ul > li > a:active {
     border-bottom: 1px solid #002933;
 }
 
+/* Footer Section */
+#contact h2 {
+    margin: 0px;
+    color: #1a655f;
+}
+
+#contact .copyright {
+    margin: 0px;
+    padding-top: 24px;
 }
