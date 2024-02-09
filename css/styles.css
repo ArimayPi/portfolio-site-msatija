@@ -16,7 +16,7 @@ Colors Used:
 
     Neutral
     light-peach: #FFF6F3
-    light-blue: #9EE6E1
+    light-blue: #EFFAFD
     blackish: #002933
 
 Fonts Used:
@@ -154,7 +154,19 @@ a:active {
     color: #fff6f3;
 }
 
-/* layout styling */
+/* general layout styling */
+main {
+    padding-top: 10.5em;
+    width: 100%;
+}
+
+footer {
+    background-color: #ffccb8;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
 .container {
     padding: 0 15px;
 }
@@ -172,6 +184,8 @@ a:active {
     text-align: center;
 }
 
+
+/* header styling */
 header {
     background-color: #ffccb8;
     text-align: center;
@@ -214,13 +228,6 @@ nav > ul > li > a:active {
     color: #1a655f;
 }
 
-#hero {
-    background-color: #ffccb8;
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-  }
-
 .css-box-shadow {
 	/*start ------------*/
 	width: [object Object]px; 
@@ -232,9 +239,29 @@ nav > ul > li > a:active {
 	-moz-box-shadow: 0 0 15px rgba(5, 7, 59, 0.3)  ; 
 }
 
-main {
-    padding-top: 10em;
+/* hero section styling */
+#hero {
+    background-color: #ffccb8;
+    padding: 20px 0;
+    display: inline-block;
     width: 100%;
+}
+
+#hero h1 {
+    margin: 0px;
+    color: #1a655f;
+}
+
+#hero h1 span {
+    font-family: 'raleway', sans-serif;
+    font-size: 0.6em;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#hero p {
+    margin: 0px
 }
 
 #work {
@@ -244,9 +271,4 @@ main {
     width: 100%;
 }
 
-footer {
-    background-color: #ffccb8;
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
 }
