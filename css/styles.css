@@ -292,3 +292,24 @@ nav > ul > li > a:active {
     margin: 0px;
     padding-top: 24px;
 }
+
+/* Project 1 - PlutoPay */
+#case-study h2, h3, h4, h5, h6 {
+    margin: 0px;
+    color: #09646d;
+}
+
+#case-study h2 {
+    padding-top: 20px;
+    border-top: 1px solid #9ee6e1;
+    margin-top: 10px;
+}
+
+#overview h1, h3 {
+    margin: 0px;
+    color: #09646d;
+}
+
+#case-study img {
+    margin-bottom: 20px;
+}
