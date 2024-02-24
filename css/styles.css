@@ -249,7 +249,7 @@ nav > ul > li > a:active {
 }
 
 #hero h1 span {
-    font-family: 'raleway', sans-serif;
+    /* font-family: 'raleway', sans-serif; */
     font-size: 0.6em;
     line-height: 1.6;
     display: inline-block;
