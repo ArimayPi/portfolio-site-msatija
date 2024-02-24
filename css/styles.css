@@ -252,7 +252,7 @@ nav > ul > li > a:active {
     /* font-family: 'raleway', sans-serif; */
     font-size: 0.6em;
     line-height: 1.6;
-    display: inline-block;
+    display: block;
     padding: 10px 0;
 }
 
