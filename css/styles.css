@@ -333,6 +333,18 @@ Medium devices (640px and larger)
     body {
         font-size: 18px;
     }
+    .col-md-6 {
+        width: 50%;
+    }
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+      }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 }
 
 /* ==============================
