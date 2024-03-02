@@ -347,7 +347,7 @@ Medium devices (640px and larger)
         display: table;
       }
     #about h2 {
-        margin-top: 0;
+        
     }
 }
 
@@ -355,7 +355,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    .col-lg-5 {
+    /* .col-lg-5 {
         width: 41.66%;
     }
     .col-lg-7 {
@@ -374,5 +374,5 @@ Large devices (1024px or larger)
     }
     .row {
         margin-top: 0px;
-    }
+    } */
 }
