@@ -347,7 +347,10 @@ Medium devices (640px and larger)
         display: table;
       }
     #about h2 {
-        
+        margin-bottom: 0px;
+    }
+    #about .row {
+        margin-top: 0px;
     }
 }
 
