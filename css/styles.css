@@ -241,6 +241,7 @@ nav > ul > li > a:active {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 #hero h1 {
@@ -331,7 +332,7 @@ Medium devices (640px and larger)
         padding-top: 120px;
     }
     body {
-        font-size: 18px;
+        /* font-size: 18px; */ /* px change unnecessary since headings have em values.*/
     }
     .col-md-6 {
         width: 50%;
