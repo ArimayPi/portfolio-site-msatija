@@ -180,7 +180,6 @@ footer {
     text-align: center;
 }
 
-
 /* header styling */
 header {
     background-color: #ffccb8;
@@ -352,7 +351,9 @@ Medium devices (640px and larger)
     #about .row {
         margin-top: 0px;
     }
-}
+    #about .button.secondary {
+        margin-top: 20px;
+    }
 
 /* ==============================
 Large devices (1024px or larger)
