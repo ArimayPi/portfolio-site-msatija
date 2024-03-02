@@ -180,6 +180,18 @@ footer {
     text-align: center;
 }
 
+.image-wrapper {
+    display: flex; /* use flexbox */
+    justify-content: center; /* horizontally */
+    align-items: center; /* vertically */
+}
+
+.image-wrapper img {
+    max-width: 640px; /* Set a specific maximum width */
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
 /* header styling */
 header {
     background-color: #ffccb8;
