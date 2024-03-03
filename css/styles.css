@@ -345,8 +345,18 @@ Medium devices (640px and larger)
     body {
         /* font-size: 18px; */ /* px change unnecessary since headings have em values.*/
     }
+    /* #skills h4 {
+        text-align: right;
+    }
+    #skills ul{
+        text-align: right;
+        direction: rtl;
+    } */
     .col-md-6 {
         width: 50%;
+    }
+    .col-lg-3 {
+        width: 100%;
     }
     [class*="col-"] {
         float: left;
@@ -371,18 +381,15 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    .col-lg-5 {
-        width: 41.66%;
+    .col-lg-3 {
+        width: 25%;
     }
-    .col-lg-7 {
-        width: 58.33%; /* Remember to put the % symbol!*/
+    .col-lg-9 {
+        width: 75%; /* Remember to put the % symbol!*/
     }
-    /* /* #about .col-lg-8 {
-        width: 66.66%;
+    #about-me div.center {
+        text-align: left;
     }
-    #about .col-lg-4 {
-        width: 33.33%;
-    } */
     .container {
         max-width: 1200px;
         margin-left: auto;
@@ -390,5 +397,18 @@ Large devices (1024px or larger)
     }
     .row {
         margin-top: 0px;
-    } */
+    }
+    #skills-tools {
+        display: flex;
+        flex-direction: column;
+    }
+   .col-md-6 {
+    width: 100%;
+    padding-top: 0;
+   }
+   #about-me h2{
+    text-align: left;
+    margin-bottom: 20px;
+   }
+  
 }

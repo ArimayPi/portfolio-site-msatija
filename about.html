@@ -39,19 +39,19 @@
     </header>
 
     <main>
-        <div id="about-me"><!--about title-->
+        <div ><!--about title-->
             <div class="container"><!--container/wrapper-->
                 <h1 class="center">About</h1>
             </div>
         </div>
-        <div><!--about content-->
+        <div id="about-me"><!--about content-->
             <div class="container"><!--container/wrapper-->
                 <picture class="image-wrapper" >
                     <source srcset="img/about/marie-jelly-knit-compressed-600.jpg" media="(max-width:767px)">
                     <img src="img/about/marie-jelly-knit-compressed-1200.jpg" alt="Marie holding a knitted jellyfish">
                 </picture>
-                <div><!--Green row for columns-->
-                    <div ><!--My Story Column-->
+                <div class="row"><!--Green row for columns-->
+                    <div class="col-lg-9"><!--My Story Column-->
                         <h2 class="center">My Story</h2>
                         <h4>Background</h4>
                         <p>
@@ -79,23 +79,23 @@
                             <a href="files/resume-msatija.pdf" class="button secondary" target="_blank">Download my resume</a>
                         </div>
                     </div>
-                    <div id="skills-tools"><!--Skills & Tools Column-->
+                    <div id="skills-tools" class="col-lg-3"><!--Skills & Tools Column-->
                         <h2 class="center">Skills & Tools</h2>
-                        <div class="row"><!--Green overarching row under Skills & Tools-->
-                            <div class="col-md-6"><!--Relevant Skills column-->
-                                <h4>Relevant Skills</h4>
-                                <ul>
-                                    <li>Qualitative Research</li>
-                                    <li>Wireframing</li>
-                                    <li>Prototype testing</li>
-                                    <li>Responsive web design</li>
-                                    <li>User interface design</li>
-                                    <li>Motion graphic design</li>
-                                    <li>Videography</li>
-                                    <li>Video editing</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6"><!--Tools I use column-->
+                            <div class="row"><!--Green overarching row under Skills & Tools-->
+                                <div id="skills" class="col-md-6"><!--Relevant Skills column-->
+                                    <h4>Relevant Skills</h4>
+                                    <ul>
+                                        <li>Qualitative Research</li>
+                                        <li>Wireframing</li>
+                                        <li>Prototype testing</li>
+                                        <li>Responsive web design</li>
+                                        <li>User interface design</li>
+                                        <li>Motion graphic design</li>
+                                        <li>Videography</li>
+                                        <li>Video editing</li>
+                                    </ul>
+                                </div>
+                                <div id="tools" class="col-md-6"><!--Tools I use column-->
                                 <h4>Tools I use</h4>
                                 <ul>
                                     <li>Paper & pencil</li>
@@ -106,7 +106,6 @@
                                     <li>Premiere Pro</li>
                                 </ul>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
