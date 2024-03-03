@@ -386,6 +386,7 @@ Large devices (1024px or larger)
     }
     .col-lg-9 {
         width: 75%; /* Remember to put the % symbol!*/
+        margin-bottom: 20px;
     }
     #about-me div.center {
         text-align: left;
