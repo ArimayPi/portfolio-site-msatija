@@ -134,7 +134,7 @@ a:active {
 .button:focus,
 .button:active {
     background-color: #9ee6e1;
-    opacity: .9;
+    opacity: .5;
     /* Reduces the opacity of the button to 80% */
     text-decoration: none;
     color: #c14e0b;
