@@ -326,10 +326,18 @@ nav > ul > li > a:active {
     margin-bottom: 20px;
 }
 
+/* Project 3 Animation */
 picture .cityscape {
     width: 100%;
     max-width: 100%;
     height: auto; 
+}
+@keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414}
+}
+.sun {
+    animation: 4s color-change infinite alternate linear;
 }
 /* ==============================
 Medium devices (640px and larger)
