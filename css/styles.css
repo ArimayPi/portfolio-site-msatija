@@ -327,7 +327,7 @@ nav > ul > li > a:active {
 }
 
 /* Project 3 Animation */
-picture .cityscape {
+#cityscape {
     width: 100%;
     max-width: 100%;
     height: auto; 
@@ -336,7 +336,7 @@ picture .cityscape {
     from {fill: #edc655;}
     to {fill: #f76414}
 }
-.sun {
+#cityscape .sun {
     animation: 4s color-change infinite alternate linear;
 }
 /* ==============================
