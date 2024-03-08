@@ -342,17 +342,17 @@ nav > ul > li > a:active {
 @keyframes cloud-move {
     from {transform: translate(0,50px);}
     to {transform: translate(200px,50px);}
-  }
+}
 #cityscape .cloud-front {
     animation: 20s cloud-move infinite alternate linear;
-  }
+}
 @keyframes cloud-move-reverse {
     from {transform: translate(446px,48px);}
     to {transform: translate(100px, 48px);}
-  }
+}
 #cityscape .cloud-back {
     animation: 15s cloud-move-reverse infinite alternate linear;
-  }
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -370,16 +370,6 @@ Medium devices (640px and larger)
     main {
         padding-top: 120px;
     }
-    body {
-        /* font-size: 18px; */ /* px change unnecessary since headings have em values.*/
-    }
-    /* #skills h4 {
-        text-align: right;
-    }
-    #skills ul{
-        text-align: right;
-        direction: rtl;
-    } */
     .col-md-6 {
         width: 50%;
     }
@@ -404,7 +394,7 @@ Medium devices (640px and larger)
     #about .button.secondary {
         margin-top: 20px;
     }
-
+}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
