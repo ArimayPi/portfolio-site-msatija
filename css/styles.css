@@ -44,7 +44,7 @@ img {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 150px;
 }
 
 .social-icon {
@@ -393,6 +393,9 @@ Medium devices (640px and larger)
     }
     #about .button.secondary {
         margin-top: 20px;
+    }
+    .logo {
+        max-width: 250px;
     }
 }
 /* ==============================
