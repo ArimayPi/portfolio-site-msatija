@@ -234,6 +234,10 @@ nav > ul > li > a:active {
     color: #1a655f;
 }
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
 .css-box-shadow {
 	/*start ------------*/
 	width: [object Object]px; 
@@ -368,6 +372,12 @@ Medium devices (640px and larger)
     }
     nav > ul > li {
         display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
     }
     main {
         padding-top: 120px;
