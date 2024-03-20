@@ -246,6 +246,28 @@ nav > ul > li > a:active {
     padding-right: 0;
 }
 
+.navtoggle.responsive li  {
+    display: block;
+}
+
+#myNavtoggle .icon {
+    color: #09646d;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #994c30;
+}
+  
+.navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+}
+
 .css-box-shadow {
 	/*start ------------*/
 	width: [object Object]px; 
