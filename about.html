@@ -1,182 +1,259 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Marie Satija">
-    <meta name="description" content="UX/UI designer based in San Francisco, CA.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marie Satija" />
+    <meta
+      name="description"
+      content="UX/UI designer based in San Francisco, CA."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Marie Satija</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#603cba">
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;800&family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Raleway:wght@600&display=swap"
-        rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/ab7383e8a2.js" crossorigin="anonymous"></script>
-</head>
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#603cba" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;800&family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/ab7383e8a2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body id="about" class="body">
-
+  <body id="about" class="body">
     <header class="css-box-shadow">
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <img src="https://via.placeholder.com/150x50?text=Logo" alt="Marie Satija" class="logo">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
-                                    class="fa-solid fa-bars"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img
+            src="https://via.placeholder.com/150x50?text=Logo"
+            alt="Marie Satija"
+            class="logo"
+          />
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main>
-        <div><!--about title-->
-            <div class="container"><!--container/wrapper-->
-                <h1 class="center">About</h1>
-            </div>
+      <div>
+        <!--about title-->
+        <div class="container">
+          <!--container/wrapper-->
+          <h1 class="center">About</h1>
         </div>
-        <div id="about-me"><!--about content-->
-            <div class="container"><!--container/wrapper-->
-                <picture class="image-wrapper">
-                    <source srcset="img/about/marie-jelly-knit-compressed-600.jpg" media="(max-width:767px)">
-                    <img src="img/about/marie-jelly-knit-compressed-1200.jpg" alt="Marie holding a knitted jellyfish">
-                </picture>
-                <div class="row"><!--Green row for columns-->
-                    <div class="col-lg-9"><!--My Story Column-->
-                        <h2 class="center">My Story</h2>
-                        <h4>Background</h4>
-                        <p>
-                            In my 5 years as a working professional, I've had the chance to tell compelling stories,
-                            design graphics, lead workshops, streamline efficient systems and workflows, optimize
-                            infrastructure, conceptualize complex applications, collaborate with peers, and build
-                            functional prototypes. But my favorite thing to do, by far, is tackling my favorite
-                            questions, “Why?” and “How?” I’m interested in why things work the way they do, why people
-                            act the way they do, and how to inspire emotion and action from this expertise. I’m in love
-                            with envisioning the big picture and strategy to solve real problems, and I excel at
-                            considering the minute details along the way.
-                        </p>
-                        <h4>Introduction to UX</h4>
-                        <p>
-                            My transition into UX was a slow one. For my first job, I was part of a church's small media
-                            team as the only video producer and editor. I spent most of my time planning, filming, and
-                            editing video content. However, I also had the unique opportunity to work closely with the
-                            resident graphic designer/webmaster and had the privilege to participate in strategic
-                            meetings for the church. “Why not do things differently?” and “How might we…?” discussions
-                            constantly filled our office and created a buzz inside of me I didn’t quite know what to
-                            call.
-                            <br>
-                            When the pandemic hit in 2020, and the need for filmmaking in my position waned, I finally
-                            got my chance to focus on digital design projects and user-centered problem-solving. I
-                            redesigned parts of our website to help parishioners find answers to their most common
-                            sacrament questions faster and without needing to visit the office. I also designed an
-                            online registration process for religious education classes since the pandemic restrictions
-                            limited in-person registration.
-                            <br>
-                            Of course, at this point, I had no idea about the formal terms for design-thinking and user
-                            experience design. I just knew that I loved it and I wanted more.
-                        </p>
-                        <h4>Plans for Continued Growth</h4>
-                        <p>
-                            A cross-country move from Austin to San Francisco, a full-time job in a tech startup, and
-                            part-time enrollment in an online UX design program set me on the path that I am now.
-                            <br>
-                            In my design program at CareerFoundry, I had the chance to conceptualize and design a
-                            finance management app, honing my skills in qualitative research, wireframing, prototype
-                            testing, and responsive web design.
-                            <br>
-                            At the same time, in my role as a Production Technician at Tempo Interactive, Inc. I not
-                            only contributed to a high-quality library of fitness content but also led critical redesign
-                            initiatives for our studio infrastructure and editing workflows.
-                            <br>
-                            I really do love the design process and the ability to create efficient, useful, and
-                            delightful experiences and I look forward to growing my design career in a company and team
-                            that values asking hard questions, continuously pushes for innovation, and sees setbacks as
-                            opportunities for growth.
-                        </p>
-                        <div class="center">
-                            <a href="files/resume-msatija.pdf" class="button secondary" target="_blank">Download my
-                                resume</a>
-                        </div>
-                    </div>
-                    <div id="skills-tools" class="col-lg-3"><!--Skills & Tools Column-->
-                        <h2 class="center">Skills &amp; Tools</h2>
-                        <div class="row"><!--Green overarching row under Skills & Tools-->
-                            <div id="skills" class="col-md-6"><!--Relevant Skills column-->
-                                <h4>Relevant Skills</h4>
-                                <ul>
-                                    <li>Qualitative Research</li>
-                                    <li>Wireframing</li>
-                                    <li>Prototype testing</li>
-                                    <li>Responsive web design</li>
-                                    <li>User interface design</li>
-                                    <li>Motion graphic design</li>
-                                    <li>Videography</li>
-                                    <li>Video editing</li>
-                                </ul>
-                            </div>
-                            <div id="tools" class="col-md-6"><!--Tools I use column-->
-                                <h4>Tools I use</h4>
-                                <ul>
-                                    <li>Paper &amp; pencil</li>
-                                    <li>Figma</li>
-                                    <li>Illustrator</li>
-                                    <li>Photoshop</li>
-                                    <li>After Effects</li>
-                                    <li>Premiere Pro</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div id="about-me">
+        <!--about content-->
+        <div class="container">
+          <!--container/wrapper-->
+          <picture class="image-wrapper">
+            <source
+              srcset="img/about/marie-jelly-knit-compressed-600.jpg"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/about/marie-jelly-knit-compressed-1200.jpg"
+              alt="Marie holding a knitted jellyfish"
+            />
+          </picture>
+          <div class="row">
+            <!--Green row for columns-->
+            <div class="col-lg-9">
+              <!--My Story Column-->
+              <h2 class="center">My Story</h2>
+              <h4>Background</h4>
+              <p>
+                In my 5 years as a working professional, I've had the chance to
+                tell compelling stories, design graphics, lead workshops,
+                streamline efficient systems and workflows, optimize
+                infrastructure, conceptualize complex applications, collaborate
+                with peers, and build functional prototypes. But my favorite
+                thing to do, by far, is tackling my favorite questions, “Why?”
+                and “How?” I’m interested in why things work the way they do,
+                why people act the way they do, and how to inspire emotion and
+                action from this expertise. I’m in love with envisioning the big
+                picture and strategy to solve real problems, and I excel at
+                considering the minute details along the way.
+              </p>
+              <h4>Introduction to UX</h4>
+              <p>
+                My transition into UX was a slow one. For my first job, I was
+                part of a church's small media team as the only video producer
+                and editor. I spent most of my time planning, filming, and
+                editing video content. However, I also had the unique
+                opportunity to work closely with the resident graphic
+                designer/webmaster and had the privilege to participate in
+                strategic meetings for the church. “Why not do things
+                differently?” and “How might we…?” discussions constantly filled
+                our office and created a buzz inside of me I didn’t quite know
+                what to call.
+                <br />
+                When the pandemic hit in 2020, and the need for filmmaking in my
+                position waned, I finally got my chance to focus on digital
+                design projects and user-centered problem-solving. I redesigned
+                parts of our website to help parishioners find answers to their
+                most common sacrament questions faster and without needing to
+                visit the office. I also designed an online registration process
+                for religious education classes since the pandemic restrictions
+                limited in-person registration.
+                <br />
+                Of course, at this point, I had no idea about the formal terms
+                for design-thinking and user experience design. I just knew that
+                I loved it and I wanted more.
+              </p>
+              <h4>Plans for Continued Growth</h4>
+              <p>
+                A cross-country move from Austin to San Francisco, a full-time
+                job in a tech startup, and part-time enrollment in an online UX
+                design program set me on the path that I am now.
+                <br />
+                In my design program at CareerFoundry, I had the chance to
+                conceptualize and design a finance management app, honing my
+                skills in qualitative research, wireframing, prototype testing,
+                and responsive web design.
+                <br />
+                At the same time, in my role as a Production Technician at Tempo
+                Interactive, Inc. I not only contributed to a high-quality
+                library of fitness content but also led critical redesign
+                initiatives for our studio infrastructure and editing workflows.
+                <br />
+                I really do love the design process and the ability to create
+                efficient, useful, and delightful experiences and I look forward
+                to growing my design career in a company and team that values
+                asking hard questions, continuously pushes for innovation, and
+                sees setbacks as opportunities for growth.
+              </p>
+              <div class="center">
+                <a
+                  href="files/resume-msatija.pdf"
+                  class="button secondary"
+                  target="_blank"
+                  >Download my resume</a
+                >
+              </div>
+            </div>
+            <div id="skills-tools" class="col-lg-3">
+              <!--Skills & Tools Column-->
+              <h2 class="center">Skills &amp; Tools</h2>
+              <div class="row">
+                <!--Green overarching row under Skills & Tools-->
+                <div id="skills" class="col-md-6">
+                  <!--Relevant Skills column-->
+                  <h4>Relevant Skills</h4>
+                  <ul>
+                    <li>Qualitative Research</li>
+                    <li>Wireframing</li>
+                    <li>Prototype testing</li>
+                    <li>Responsive web design</li>
+                    <li>User interface design</li>
+                    <li>Motion graphic design</li>
+                    <li>Videography</li>
+                    <li>Video editing</li>
+                  </ul>
                 </div>
+                <div id="tools" class="col-md-6">
+                  <!--Tools I use column-->
+                  <h4>Tools I use</h4>
+                  <ul>
+                    <li>Paper &amp; pencil</li>
+                    <li>Figma</li>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>After Effects</li>
+                    <li>Premiere Pro</li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-     </main>
+      </div>
+    </main>
 
-    <footer id="contact"><!--orange whole section block-->
-        <div class="container"><!--yellow container/wrapper-->
-            <h2 class="center">Get in Touch</h2><!--section heading-->
-            <div class="center"><!--social media layout and placeholders-->
-                <p>
-                    Do you have a project you'd like to discuss? Please get in touch!
-                </p>
-                <a href="https://linkedin.com/in/mariesatija" target="_blank">
-                    <img src="linkedin-icon.svg" alt="linkedin logo" class="social-icon">
-                </a>
-            </div>
-            <div class="center"><!--email link-->
-                <p class="center"><!--open paragraph-->
-                    Connect on LinkedIn,<br>
-                    Call: <a href="tel:+12107101751">+1 (210) 710-1751</a> or shoot me an email at
-                    marie.satija93[at]gmail.com
-                </p><!--close paragraph-->
-                <a href="mailto:marie.satija93@gmail.com" class="button secondary">Send email</a>
-            </div>
-            <p class="center copyright"><!--copyright-->
-                Made with love in San Francisco, CA. | Copyright MARIE SATIJA 2024
-            </p>
+    <footer id="contact">
+      <!--orange whole section block-->
+      <div class="container">
+        <!--yellow container/wrapper-->
+        <h2 class="center">Get in Touch</h2>
+        <!--section heading-->
+        <div class="center">
+          <!--social media layout and placeholders-->
+          <p>
+            Do you have a project you'd like to discuss? Please get in touch!
+          </p>
+          <a href="https://linkedin.com/in/mariesatija" target="_blank">
+            <img
+              src="linkedin-icon.svg"
+              alt="linkedin logo"
+              class="social-icon"
+            />
+          </a>
         </div>
+        <div class="center">
+          <!--email link-->
+          <p class="center">
+            <!--open paragraph-->
+            Connect on LinkedIn,<br />
+            Call: <a href="tel:+12107101751">+1 (210) 710-1751</a> or shoot me
+            an email at marie.satija93[at]gmail.com
+          </p>
+          <!--close paragraph-->
+          <a href="mailto:marie.satija93@gmail.com" class="button secondary"
+            >Send email</a
+          >
+        </div>
+        <p class="center copyright">
+          <!--copyright-->
+          Made with love in San Francisco, CA. | Copyright MARIE SATIJA 2024
+        </p>
+      </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-
-</body>
-
+  </body>
 </html>
