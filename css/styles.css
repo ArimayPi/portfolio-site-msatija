@@ -365,7 +365,7 @@ h3 {
 /* Project 3 Animation */
 #cityscape {
   width: 100%;
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -522,5 +522,9 @@ Large devices (1024px or larger)
   #about-me h2 {
     text-align: left;
     margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    max-width: 75%;
   }
 }
