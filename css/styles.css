@@ -212,17 +212,17 @@ nav > ul > li > a {
   color: #a6370f;
 }
 
-nav > ul > li > a:visited {
-  /* visited link */
-  color: #a6370f;
-  opacity: 0.5;
-}
-
 nav > ul > li > a:hover,
 nav > ul > li > a:focus,
 nav > ul > li > a:active {
   /* visited link */
   color: #1a655f;
+}
+
+nav > ul > li > a:visited {
+  /* visited link */
+  color: #a6370f;
+  opacity: 0.5;
 }
 
 .navtoggle li:not(:last-child) {
@@ -231,7 +231,8 @@ nav > ul > li > a:active {
 
 .navtoggle,
 .navtoggle.responsive {
-  position: relative;
+  position: relative
+  ;
 }
 
 .navtoggle li .icon {
@@ -247,7 +248,7 @@ nav > ul > li > a:active {
 }
 
 #myNavtoggle .icon {
-  color: #09646d;
+  color: #a6370f;
 }
 
 .navtoggle.responsive nav {
@@ -442,6 +443,17 @@ Medium devices (640px and larger)
   nav > ul {
     margin: 1em 0;
   }
+
+  /* .navtoggle.responsive (nav & li) remove padding so that when "contact" is selected, nav text remains in same position. */
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border-top: none;
+  }
+/* end previous note section-----------^ */
 
   main {
     padding-top: 120px;
