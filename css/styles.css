@@ -181,7 +181,7 @@ footer {
 }
 
 .image-wrapper img {
-  max-width: 640px; /* Set a specific maximum width */
+  max-width: 450px; /* Set a specific maximum width */
   width: 100%; /* Ensure the image fills its container */
   height: auto; /* Maintain aspect ratio */
 }
@@ -318,6 +318,7 @@ h6 {
 #work h2 {
   color: #09646d;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #work .row {
@@ -365,7 +366,7 @@ h3 {
 /* Project 3 Animation */
 #cityscape {
   width: 100%;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -515,7 +516,7 @@ Large devices (1024px or larger)
   }
 
   .col-md-6 {
-    width: 100%;
+    width: 50%;
     padding-top: 0;
   }
 
@@ -524,7 +525,4 @@ Large devices (1024px or larger)
     margin-bottom: 20px;
   }
 
-  .hero-image img {
-    max-width: 75%;
-  }
 }
