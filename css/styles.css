@@ -157,7 +157,7 @@ main {
 
 footer {
   background-color: #ffccb8;
-  padding: 20px;
+  padding: 0, 20px;
   display: inline-block;
   width: 100%;
 }
@@ -212,6 +212,12 @@ nav > ul > li > a {
   color: #a6370f;
 }
 
+nav > ul > li > a:visited {
+  /* visited link */
+  color: #a6370f;
+  opacity: 0.5;
+}
+
 nav > ul > li > a:hover,
 nav > ul > li > a:focus,
 nav > ul > li > a:active {
@@ -219,11 +225,7 @@ nav > ul > li > a:active {
   color: #1a655f;
 }
 
-nav > ul > li > a:visited {
-  /* visited link */
-  color: #a6370f;
-  opacity: 0.5;
-}
+
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -327,15 +329,24 @@ h6 {
   border-bottom: 1px solid #002933;
 }
 
+#work .row.final {
+  padding-bottom: 25px;
+  border-bottom: none;
+}
+
 /* Footer Section */
+#contact {
+  padding-top: 20px;
+}
+
 #contact h2 {
   margin: 0;
   color: #1a655f;
 }
 
 #contact .copyright {
-  margin: 0;
-  padding-top: 24px;
+  margin-top: 24px;
+  
 }
 
 /* Project 1 - PlutoPay */
@@ -411,6 +422,14 @@ h3 {
 
 #cityscape .cloud-back {
   animation: 15s cloud-move-reverse infinite alternate linear;
+}
+
+.bottom-footer.center.copyright {
+  border-top: 1px solid #003B4A;
+  background-color: #fff6f3;
+  color: #1a655f;
+  padding: 12px 20px; /* top/bottom 12px, left/right 20px */
+
 }
 
 /* ==============================
@@ -492,6 +511,11 @@ Medium devices (640px and larger)
 
   .logo {
     max-width: 250px;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
