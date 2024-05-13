@@ -129,10 +129,10 @@ a:active {
 .button:hover,
 .button:focus,
 .button:active {
-  background-color: #9ee6e1;
-  opacity: 0.5; /* Reduces the opacity of the button to 80% */
+  background-color: #F37E39;
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
-  color: #c14e0b; /* needed to override the default link color */
+  color: #003B4A; /* needed to override the default link color */
 }
 
 .button.secondary {
