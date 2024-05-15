@@ -157,7 +157,7 @@ main {
 
 footer {
   background-color: #ffccb8;
-  padding: 0 20px;
+  padding: 20px 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -269,8 +269,8 @@ nav > ul > li > a:active {
 
 .css-box-shadow {
   /* start ------------ */
-  width: [object Object]px;
-  height: [object Object]px;
+  width: 100%;
+  height: auto;
   background: #ffccb8;
   border: solid #bdbdbd 0;
   box-shadow: 0 0 15px rgba(5, 7, 59, 0.3);
@@ -438,7 +438,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 660px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 12px 0 10px;
   }
 
   nav {
